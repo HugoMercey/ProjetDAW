@@ -2,10 +2,12 @@
     require 'avis.class.php';
 
     class Produit{
+        private int $id;
         private string $nom;
         private string $description;
         private float $prix;
         private array $avis;
+        private array $images;
 
 
 

@@ -1,47 +1,22 @@
 [
     {
-        "nom": "test",
-        "prix": "dsfgz",
-        "description": "kvliuv"
+        "nom": "Produit1",
+        "prix": "9.99",
+        "description": "testts",
+        "images": [
+            "Quake.jpg",
+            "Stockfish.png",
+            "Pac-man.png"
+        ]
     },
     {
-        "nom": "test",
-        "prix": "dsfgz",
-        "description": "kvliuv"
-    },
-    {
-        "nom": "test",
-        "prix": "ygvg",
-        "description": "puigoop"
-    },
-    {
-        "nom": "test",
-        "prix": "ygvg",
-        "description": "puigoop"
-    },
-    {
-        "nom": "test",
-        "prix": "ygvg",
-        "description": "puigoop"
-    },
-    {
-        "nom": "test",
-        "prix": "ygvg",
-        "description": "puigoop"
-    },
-    {
-        "nom": "test",
-        "prix": "ygvg",
-        "description": "puigoop"
-    },
-    {
-        "nom": "test",
-        "prix": "ygvg",
-        "description": "puigoop"
-    },
-    {
-        "nom": "test",
-        "prix": "ygvg",
-        "description": "puigoop"
+        "nom": "Produit1",
+        "prix": "9.99",
+        "description": "testts",
+        "images": [
+            "Quake.jpg",
+            "Stockfish.png",
+            "Pac-man.png"
+        ]
     }
 ]
