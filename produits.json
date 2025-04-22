@@ -1,22 +1,42 @@
 [
     {
-        "nom": "Produit1",
-        "prix": "9.99",
-        "description": "testts",
+        "id": 0,
+        "nom": "test",
+        "description": "gipmuvi",
+        "prix": 10,
+        "avis": [],
         "images": [
-            "Quake.jpg",
-            "Stockfish.png",
-            "Pac-man.png"
+            "Capture d\u2019\u00e9cran 2025-04-21 \u00e0 20.48.09.png"
         ]
     },
     {
-        "nom": "Produit1",
-        "prix": "9.99",
-        "description": "testts",
+        "id": 1,
+        "nom": "test",
+        "description": "gipmuvi",
+        "prix": 10,
+        "avis": [],
         "images": [
-            "Quake.jpg",
-            "Stockfish.png",
-            "Pac-man.png"
+            "Capture d\u2019\u00e9cran 2025-04-21 \u00e0 20.48.09.png"
+        ]
+    },
+    {
+        "id": 2,
+        "nom": "test",
+        "description": "gipmuvi",
+        "prix": 10,
+        "avis": [],
+        "images": [
+            "Capture d\u2019\u00e9cran 2025-04-21 \u00e0 20.48.09.png"
+        ]
+    },
+    {
+        "id": 3,
+        "nom": "test",
+        "description": "gipmuvi",
+        "prix": 10,
+        "avis": [],
+        "images": [
+            "Capture d\u2019\u00e9cran 2025-04-21 \u00e0 20.48.09.png"
         ]
     }
 ]

@@ -36,30 +36,25 @@
             }
         }
 
-        $nom = $_POST["nom"];
-        $prix = $_POST["prix"];
-        $description = $_POST["description"];
-        $images = array();
-
         foreach ($_FILES["upload"]["error"] as $key => $error) {
             if ($error == UPLOAD_ERR_OK) {
                 $images[] = $_FILES["upload"]["name"][$key];
             }
         }
 
-        
-        $data = [
-            "nom" => $nom,
-            "prix" => $prix,
-            "description" => $description,
-            "images" => $images
-        ];
-
         $content = file_get_contents("produits.json");
         $produits = [];
         if($content){
             $datas = json_decode($content,true);
+            $id = end($datas)["id"]+1;
+        }else{
+            $id = 0;
         }
+
+
+        $produit = new Produit($id, $_POST["nom"], $_POST["description"], $_POST["prix"], $images);
+        $data = $produit->encode();
+
         $datas[] = $data;
         $produitsJSON = json_encode($datas, JSON_PRETTY_PRINT);
         file_put_contents("produits.json", $produitsJSON);
